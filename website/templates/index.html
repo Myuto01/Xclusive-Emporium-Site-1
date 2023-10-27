@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Xclusive Emporium| Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+   
+  <link href="{{ url_for('static', filename='assets/img/favicon.png') }}" rel="icon">
+  <link href="{{ url_for('static', filename='assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+ <!-- Vendor CSS Files -->
+<link href="{{ url_for('static', filename='assets/vendor/aos/aos.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="{{ url_for('static', filename='assets/css/style.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Xclusive Emporium</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="">Iphones</a></li>
+          <li><a class="nav-link scrollto" href="">Repair</a></li>
+          <li><a class="nav-link scrollto " href="">Accessories</a></li>
+         <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>-->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li> 
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>                 
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+      <h1>Xclusive Emporium</h1>
+      <h2>Your One Stop Iphone Store </h2>
+      <div class="d-flex">
+        <a href="#about" class="btn-get-started scrollto">Buy Now</a>
+        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  
+    <!-- ======= About Boxes Section ======= -->
+    <section id="about-boxes" class="about-boxes">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <img  src="{{ url_for('static', filename='assets/img/about-boxes-1.jpg') }}" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="ri-smartphone-line"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Iphones</h5>
+                <p class="card-text">We sell the best and latest Iphones on the market</p>
+                <a href="" class="cta-button">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <img  src="{{ url_for('static', filename='assets/img/about-boxes-2.jpg') }}" class="card-img-top" alt="..." >
+              <div class="card-icon">
+                <i class="ri-settings-5-fill"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Iphone Repair</h5>
+                <p class="card-text">You break it we fix it, we fix Iphones at the best prices on the market </p>
+                <a href="" class="cta-button">Get Your iPhone Repaired</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <img  src="{{ url_for('static', filename='assets/img/about-boxes-3.jpg') }}" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="ri-headphone-line"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Accessories</h5>
+                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. </p>
+                <a href="" class="cta-button">Customize Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Boxes Section -->
+
+  <main id="main">
+
+   
+
+
+    
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Phone Repair Services</h2>
+          <p>iphone repair services</p>
+        </div>
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+              <i class="ri-settings-5-fill"></i>
+              <h4 class="d-none d-lg-block">Screen Repair</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-loop-right-line"></i>
+              <h4 class="d-none d-lg-block">Battery Replacement</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-app-store-fill"></i>
+              <h4 class="d-none d-lg-block">Back Glass Replacement</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-contrast-drop-fill"></i>
+              <h4 class="d-none d-lg-block">Water Damage Repair</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Professional iPhone Screen Repair Services</h3>
+<p class="fst-italic">
+  If your iPhone's screen is cracked or malfunctioning, we've got you covered with expert screen repair services.
+</p>
+<ul>
+  <li><i class="ri-check-double-line"></i> We specialize in repairing cracked or damaged iPhone screens.</li>
+  <li><i class="ri-check-double-line"></i> Our skilled technicians will ensure your iPhone screen looks and functions like new.</li>
+  <li><i class="ri-check-double-line"></i> Fast and reliable service with a focus on customer satisfaction.</li>
+</ul>
+<p>
+  Don't let a damaged iPhone screen disrupt your day. Our screen repair service will have your device looking great and working perfectly, so you can get back to what matters most.
+</p>
+
+                <a class="cta-button" href="#">Fix My Phone Now</a>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img  src="{{ url_for('static', filename='assets/img/features-1.png') }}" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Professional Battery Replacement Services</h3>
+<p>
+  If your iPhone's battery is no longer holding a charge, we offer top-notch battery replacement services to keep your device running smoothly.
+</p>
+<p class="fst-italic">
+  Is your iPhone's battery draining quickly or not charging properly? Don't worry; we've got you covered with expert battery replacement services.
+</p>
+<ul>
+  <li><i class="ri-check-double-line"></i> Is your iPhone battery draining quickly or not charging properly? We can replace it with a high-quality battery.</li>
+  <li><i class="ri-check-double-line"></i> Our skilled technicians ensure that your iPhone's new battery performs at its best.</li>
+  <li><i class="ri-check-double-line"></i> Fast and reliable battery replacement service with a focus on customer satisfaction.</li>
+  <li><i class="ri-check-double-line"></i> Get your iPhone running like new with our battery replacement service.</li>
+</ul>
+
+                <a class="cta-button" href="#">Fix My Phone Now</a>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img  src="{{ url_for('static', filename='assets/img/features-2.png') }}" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">                
+                  <h3>Expert iPhone Back Glass Screen Replacement</h3>
+                  <p>
+                      If your iPhone's back glass is cracked or damaged, we offer professional back glass screen replacement services to restore your device to its original condition.
+                  </p>
+                  <ul>
+                      <li><i class="ri-check-double-line"></i> Is your iPhone's back glass cracked or shattered? We can replace it with a high-quality back glass.</li>
+                      <li><i class="ri-check-double-line"></i> Our skilled technicians ensure a seamless replacement process and a like-new appearance.</li>
+                      <li><i class="ri-check-double-line"></i> Fast and reliable back glass screen replacement with a focus on customer satisfaction.</li>
+                  </ul>
+                  <p class="fst-italic">
+                      Don't let a damaged iPhone back glass detract from your device's aesthetics. Get your iPhone looking pristine again with our expert back glass screen replacement service.
+                  </p>        
+                <a class="cta-button" href="#">Fix My Phone Now</a>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img  src="{{ url_for('static', filename='assets/img/features-3.png') }}" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Expert Water Damage Phone Repair</h3>
+<p>
+  Did your phone take an unexpected dive? Our skilled technicians specialize in repairing phones that have been submerged in water or other liquids.
+</p>
+<p class="fst-italic">
+  We understand the frustration of water damage, and we're here to bring your device back to life.
+</p>
+<ul>
+  <li><i class="ri-check-double-line"></i> Accidentally dropped your phone in water? We provide fast and efficient water damage repair services.</li>
+  <li><i class="ri-check-double-line"></i> Our experts will assess and repair the damage to ensure your phone functions properly.</li>
+  <li><i class="ri-check-double-line"></i> Count on us for reliable water damage phone repair with a focus on customer satisfaction.</li>
+</ul>
+                <a class="cta-button" href="#">Fix My Phone Now</a>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img  src="{{ url_for('static', filename='assets/img/features-4.png') }}" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Featured Products</h2>
+          <p>Featured Products</p>
+        </div>
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-6">
+            <div class="icon-box">
+              <img  src="{{ url_for('static', filename='assets/img/features-1.png') }}" class="img-fluid" alt="">
+              <h4><a href="#">Product 1</a></h4>
+              <p>Explore the features of Product 1, priced at<strong>$99.99</strong> .</p>
+              <a href="#" class="cta-button">View Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <img  src="{{ url_for('static', filename='assets/img/features-1.png') }}" class="img-fluid" alt="">
+              <h4><a href="#">Product 2</a></h4>
+              <p>Product 2 is available at $149.99. Learn more about it.</p>
+              <a href="#" class="cta-button">View Details</a>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="icon-box">
+              <img  src="{{ url_for('static', filename='assets/img/features-1.png') }}" class="img-fluid" alt="">
+              <h4><a href="#">Product 3</a></h4>
+              <p>Check out Product 3, priced at $79.99, and its features.</p>
+              <a href="#" class="cta-button">View Details</a>
+            </div>
+          </div>
+        </div>
+        
+    </section><!-- End Services Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Special offers</h2>
+          <p>Check our Special offers</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Phones</li>
+              <li data-filter=".filter-card">Speakers</li>
+              <li data-filter=".filter-web">Accessories</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Iphone 6</h4>
+              <p>K2000</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Airpods</h4>
+              <p>K350</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Iphone 7</h4>
+              <p>K4000</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>JBL Charge 3+</h4>
+              <p>K1500</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Beats (Alexander Wang Edition)</h4>
+              <p>K2500</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Iphone 13</h4>
+              <p>K10,000</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Bose Speaker</h4>
+              <p>K1000</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">  
+            <div class="portfolio-info">
+              <h4>Skull</h4>
+              <p>K500</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img  src="{{ url_for('static', filename='assets/img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt=""> 
+            <div class="portfolio-info">
+              <h4>Iphone Titanium Cover</h4>
+              <p>K250</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+ <!--   <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Check our Team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="pic"><img  src="{{ url_for('static', filename='assets/img/team/team-1.jpg') }}" class="img-fluid"> </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><div class="pic"><img  src="{{ url_for('static', filename='assets/img/team/team-2.jpg') }}" class="img-fluid"> </div>
+            </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><div class="pic"><img  src="{{ url_for('static', filename='assets/img/team/team-3.jpg') }}" class="img-fluid"> </div>
+            </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>--><!-- End Team Section -->
+
+    
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img  src="{{ url_for('static', filename='assets/img/testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img  src="{{ url_for('static', filename='assets/img/testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img  src="{{ url_for('static', filename='assets/img/testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img  src="{{ url_for('static', filename='assets/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img  src="{{ url_for('static', filename='assets/img/testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img  src="{{ url_for('static', filename='assets/img/clients/client-1.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img  src="{{ url_for('static', filename='assets/img/clients/client-2.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img  src="{{ url_for('static', filename='assets/img/clients/client-3.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img  src="{{ url_for('static', filename='assets/img/clients/client-4.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img  src="{{ url_for('static', filename='assets/img/clients/client-5.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img  src="{{ url_for('static', filename='assets/img/clients/client-6.png') }}" class="img-fluid" alt="">
+
+          </div>
+
+        </div>
+
+      </div>
+
+     
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-end">
+          <div class="col-lg-11">
+            <div class="row justify-content-end">
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-emoji-smile"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="700" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-check2"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Iphones Sold</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-wrench"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Iphones repaired</p>
+                </div>
+              </div>
+
+              
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box">
+                  <i class="bi bi-clock"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>Years of experience</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">          
+            <img  src="{{ url_for('static', filename='assets/img/about.jpg') }}" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-lg-6 pt-3 pt-lg-0 content">
+            <h3>Xclusive Emporium</h3>
+    <p class="fst-italic">
+        Your One-Stop Destination for iPhones, Accessories, and iPhone Repairs
+    </p>
+    <ul>
+        <li><i class="bx bx-check-double"></i> Discover the latest iPhones and a wide range of accessories in one place.</li>
+        <li><i class="bx bx-check-double"></i> We specialize in fixing broken iPhones, restoring them to their original condition.</li>
+        <li><i class="bx bx-check-double"></i> Explore our selection of high-quality iPhone accessories to enhance your device.</li>
+        <li><i class="bx bx-check-double"></i> Experience exceptional customer service and premium products at Xclusive Emporium.</li>
+    </ul>
+    <p>
+        At Xclusive Emporium, we're dedicated to providing you with the best iPhones, accessories, and iPhone repair services. Our mission is to deliver top-notch products and expert repair solutions to meet your iPhone needs.
+    </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+    <div class=" section-title">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6">
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="info-box">
+                <i class="bx bx-map"></i>
+                <h3>Our Address</h3>
+                <p>Iringa Mall, Shop #12B upstairs, Lusaka</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-box mt-4">
+                <i class="bx bx-envelope"></i>
+                <h3>Email Us</h3>
+                <p>info@example.com<br>contact@example.com</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-box mt-4">
+                <i class="bx bx-phone-call"></i>
+                <h3>Call Us</h3>
+                <p>+260 12345 6789<br>+260 12345 6789</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Xclusive Emporium</h3>
+              <p>
+                Iringa Mall <br>
+                Shop #12B upstairs, Lusaka<br><br>
+                <strong>Phone:</strong> +260 12345 6789<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+         <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Working Hours</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i>Monday 08:00-19:00</li>
+              <li><i class="bx bx-chevron-right"></i>Tuesday 08:00-19:00</li>
+              <li><i class="bx bx-chevron-right"></i>Wednesday 08:00-19:00</li>
+              <li><i class="bx bx-chevron-right"></i>Thursday 08:00-19:00</li>
+              <li><i class="bx bx-chevron-right"></i>Friday 08:00-19:00</li>
+              <li><i class="bx bx-chevron-right"></i>Saturday 08:00-18:00</li>
+              <li><i class="bx bx-chevron-right"></i>Sunday Resting</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Don't miss out on free giveaways, join our Newsletter</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Xclusive Emporium</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#" style="color: gold;">Pixel Cart Architect</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+<script src="{{ url_for('static', filename='assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/aos/aos.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='assets/vendor/php-email-form/validate.js') }}"></script>
+
+<!-- Template Main JS File -->
+<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+  
+
+</body>
+
+</html>
